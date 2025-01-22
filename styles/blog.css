@@ -119,13 +119,127 @@ color: rgb(1, 172, 253);
         border: none;
         margin-top: 24px;
     }
+
+    .container-section{
+        width: 1160px;
+        margin: 0 auto;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+        margin-top: 80px;
+        
+    }
+    .container-title{
+        text-align: center;
+        font-size: 2.875rem;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        margin-top: 60px;
+    }
+    .container-card-1{
+        width: 365px;
+        height: 475px;
+        text-align: center;
+        box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    }
+    .container-card-2{
+        width: 365px;
+        height: 475px;
+        text-align: center;
+        box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+    }
+    .container-card-3{
+        width: 365px;
+        height: 475px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 0.94px solid rgb(242, 232, 255);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    }
+    .container-card-title{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: rgb(32, 32, 32);
+        margin-top: 32px;
+    }
+    .container-card-description{
+        font-size: 0.9375rem;
+        font-weight: 500;
+        color: rgb(128, 128, 128);
+        margin-top: 32px;
+    }
+    .container-card-btn-1{
+        width: 100px;
+        height: 20px;
+        font-size: 0.9375rem;
+        font-weight: 700;
+        color: rgb(100, 200, 255);
+        border: none;
+        margin-top: 32px;
+    }
+    .container-card-btn-2{
+        width: 100px;
+        height: 20px;
+        font-size: 0.9375rem;
+        font-weight: 700;
+color: rgb(240, 170, 0);
+border: none;
+margin-top: 32px;
+    }
+    .container-card-btn-3{
+        width: 100px;
+        height: 20px;
+        font-size: 0.9375rem;
+        font-weight: 700;
+        color: rgb(135, 0, 255);
+        border: none;
+        margin-top: 32px;
+    }
+    .container-card-img{
+        margin-top: 65px;
+    }
+.container-btn{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.container-btn-1, .container-btn-2{
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+.container-section{
+    background-image: url(../assets/bg.png);
+}
     
 
     
 
 
     @media screen and (max-width: 576px){
-        .nav-item, .nav-btn, .nav-title{
+        .nav-item, .nav-btn, .nav-title, .container-btn{
             display: none;
         }
          /* .nav-title-item{
@@ -155,4 +269,16 @@ color: rgb(1, 172, 253);
             width: 100%;
              margin: 0 auto;
         }
+        
+    .container-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+    }
+            
     }
