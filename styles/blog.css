@@ -468,6 +468,23 @@ padding: 10px;
 .horizental{
     display: none;
 }
+.menu-icon-1 {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: -20px;
+  }
+  .menu-icon-1 span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+  }
+.menu-icon{
+    display: none;
+}
+
 
 
     @media screen and (max-width: 576px){
@@ -484,6 +501,11 @@ padding: 10px;
     display: block;
     margin-top: 40px;
     border: 0.5px solid rgb(254, 163, 1);
+}
+
+.menu-icon{
+    display: block;
+    
 }
 
         .nav-item, .nav-btn, .nav-title, .container-btn, .stori-card{
@@ -562,7 +584,17 @@ margin-left: 10px;
     margin-bottom: 20px;
 
 } 
-
+/* .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .menu-icon span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+  } */
 
     }
 
