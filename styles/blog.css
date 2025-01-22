@@ -405,7 +405,7 @@ padding: 10px;
 
 
     @media screen and (max-width: 576px){
-        .nav-item, .nav-btn, .nav-title, .container-btn{
+        .nav-item, .nav-btn, .nav-title, .container-btn, .stori-card{
             display: none;
         }
          /* .nav-title-item{
@@ -444,7 +444,29 @@ padding: 10px;
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 20px;
+        margin-left: 50px;
     }
+.stori-container{
+    width: 100%;
+    
+
+}
+.stori-card-1, .stori-card-2, .stori-card-3, .stori-card-4{
+    margin: 0 auto;
+    max-width: 100%;
+    gap: 0px;
+    
+ } 
+/* .stori-container-2{
+max-width: 80px;
+height: 50px;
+gap: 10px;
+/* margin-left: -120px;
+} */
+
+
+} 
+
+
             
-    }
+    
