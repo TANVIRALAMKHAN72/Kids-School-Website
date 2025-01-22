@@ -260,7 +260,7 @@ margin-top: 32px;
             margin: 0 auto;
             /* width: 375px; */
             height: 725px;
-            margin-top: 475px;
+            margin-top: 500px;
             text-align: center;
 
 
@@ -278,7 +278,7 @@ margin-top: 32px;
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 10px;
+        margin-left: 20px;
     }
             
     }
