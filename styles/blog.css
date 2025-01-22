@@ -122,3 +122,37 @@ color: rgb(1, 172, 253);
     
 
     
+
+
+    @media screen and (max-width: 576px){
+        .nav-item, .nav-btn, .nav-title{
+            display: none;
+        }
+         /* .nav-title-item{
+            display: flex;
+             flex-direction: row;
+        } */
+        .nav-title-img{
+        margin-left: -200px;
+        }
+         .Contact{
+            width: 100%;
+            margin: 0 auto;
+            
+         }
+        .hero-kids{
+            flex-direction: column-reverse;
+            width: 90%;
+            margin: 0 auto;
+            /* width: 375px; */
+            height: 725px;
+            margin-top: 475px;
+            text-align: center;
+
+
+        }
+        .hero-kids-img{
+            width: 100%;
+             margin: 0 auto;
+        }
+    }
