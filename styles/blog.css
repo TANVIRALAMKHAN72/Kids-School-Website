@@ -114,7 +114,7 @@ color: rgb(1, 172, 253);
         border-radius: 12px;
         background-color: rgb(17, 17, 17);
         font-size: 1.25rem;
-        font-weight: 600;
+        font-weight: 700;
         color: rgb(255, 255, 255);
         border: none;
         margin-top: 24px;
@@ -233,9 +233,175 @@ margin-top: 32px;
 .container-section{
     background-image: url(../assets/bg.png);
 }
-    
+    .stori-container{
+        background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+        /* width: 1160px;
+        /* justify-content: center; */
+        /* justify-items: center;
+        margin: 0 auto; */
+        /* margin-bottom: 60px; */
+        width: 1440px;
+        height: 900px;
+        margin: 0 auto;
+    }
+   .stori-container-title{
+    text-align: center;
+    /* margin: 60px auto; */
+    font-size: 2.875rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 80px;
+    /* margin-bottom: 80px; */
+   }
+.stori-container-1{
+    display: flex;
+    gap: 20px;
+    width: 1160px;
+    /* justify-content: center; */
+    justify-items: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.stori-card{
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+/* padding: 38px; */
+}
+.stori-card-img{
+    border-radius: 16px 16px 0px 0px;
+}
+.stori-container-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 
-    
+}
+.stori-card-date, .stori-card-title, .stori-card-description{
+padding: 0px 38px;
+}
+.stori-card-date{
+    position: relative;
+    margin-top: -40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    width: 170px;
+    height: 40px;
+    border-radius: 47.93px;
+background: rgb(60, 216, 232);
+padding: 10px;
+}  
+.stori-card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+.stori-card-description{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    margin-top: 50px;
+}
+.stori-card-1, .stori-card-2, .stori-card-3, .stori-card-4{
+    width: 290px;
+    height: 300px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.story-card-1-img, .story-card-2-img, .story-card-3-img, .story-card-4-img{
+    border-radius: 16px 16px 0px 0px;  
+}
+    .stori-card-1-date, .story-card-1-title, .stori-card-2-date, .story-card-2-title, 
+    .stori-card-3-date, .story-card-3-title, .stori-card-4-date, .story-card-4-title {
+        padding: 0px 38px ;
+    }
+.stori-card-1-date{
+    position: relative;
+    margin-top: -40px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 47.93px;
+background: rgb(149, 178, 38);
+padding: 10px;  
+}
+.stori-card-2-date{
+    position: relative;
+    margin-top: -40px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 47.93px;
+background: rgb(93, 88, 240);
+padding: 10px;  
+}
+.stori-card-3-date{
+    position: relative;
+    margin-top: -40px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 47.93px;
+background: rgb(67, 94, 18);
+padding: 10px;  
+}
+.stori-card-4-date{
+    position: relative;
+    margin-top: -40px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 47.93px;
+background: rgb(160, 106, 36);
+padding: 10px;  
+}
+.stori-card-btn{
+    width: 190px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 24px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+
 
 
     @media screen and (max-width: 576px){
