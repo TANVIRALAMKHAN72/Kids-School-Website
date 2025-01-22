@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .Contact{
+    display: flex;
+    justify-content: space-around;
+    width: 1160px;
+    height: 62px;
+    margin: 0 auto;
+  }
+  .nav-title-item{
+    display: flex;
+    gap: 12px;
+  }
+  .header{
+    /* width: 1160px; */
+  }
+  .nav-item ul {
+display: flex;
+gap: 32px;
+list-style: none;
+  }
+    .nav-btn{
+        width: 150px;
+        height: 50px;
+        border-radius: 12px;
+        background-color: rgb(254, 163, 1);
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border: none;
+        margin-top: 20px;
+    }
+     .nav-item-1{
+font-size: 1.25rem;
+font-weight: 700;
+color: rgb(254, 163, 1);
+margin-top: 20px;
+     }   
+    .nav-item-2{
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: rgb(1, 172, 253);
+        margin-top: 20px;
+    }
+    .nav-item-3{
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: rgb(5, 212, 223);
+        margin-top: 20px;
+    }
+    .nav-item-4{
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: rgb(93, 88, 239);
+        margin-top: 20px;
+    }
+    .nav-title{
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgb(17, 17, 17);
+    }
+    .nav-title-img{
+        width: 62px;
+        height: 62px;
+        margin-top: 20px;
+    }
+    .hero-kids-img{
+        width: 465px;
+        height: 575px;
+    }
+
+    .hero-kids{
+        display: flex;
+        align-items: center;
+        width: 1100px;
+        height: 575px;
+        margin: 0 auto;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    .hero-kids-bar{
+        /* width: 640px; */
+    }
+    .hero-kids-title{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .hero-clr-1{
+color: rgb(254, 163, 1);
+    }
+    .hero-clr-2{
+color: rgb(17, 17, 17);
+    }
+    .hero-clr-3{
+color: rgb(1, 172, 253);
+    }
+    .hero-kids-description{
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: rgb(17, 17, 17);
+        margin-top: 24px;
+    }
+    .hero-kids-btn{
+        width: 190px;
+        height: 50px;
+        border-radius: 12px;
+        background-color: rgb(17, 17, 17);
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border: none;
+        margin-top: 24px;
+    }
+    
+
+    
