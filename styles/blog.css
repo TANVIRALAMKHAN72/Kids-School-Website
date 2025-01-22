@@ -7,7 +7,18 @@
     font-style: normal;
   }
 
-
+.marqe{
+    /* width: 1140px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    direction: right;
+    background-color: darkgray;
+}
   .Contact{
     display: flex;
     justify-content: space-around;
@@ -400,7 +411,7 @@ padding: 10px;
     margin-top: 80px;
 }
 .footer{
-    background-color: rgb(1, 172, 253);
+    background-color: rgb(16, 61, 83);
     width: 1440px;
     height: 520px;
     margin: 0 auto;
@@ -454,6 +465,10 @@ padding: 10px;
     margin-top: 130px;
 }
 
+.horizental{
+    display: none;
+}
+
 
     @media screen and (max-width: 576px){
 
@@ -461,8 +476,15 @@ padding: 10px;
             max-width: 576px;
         } */
 
-        
+        body{
+            overflow-x: hidden;
+        }
 
+.horizental{
+    display: block;
+    margin-top: 40px;
+    border: 0.5px solid rgb(254, 163, 1);
+}
 
         .nav-item, .nav-btn, .nav-title, .container-btn, .stori-card{
             display: none;
